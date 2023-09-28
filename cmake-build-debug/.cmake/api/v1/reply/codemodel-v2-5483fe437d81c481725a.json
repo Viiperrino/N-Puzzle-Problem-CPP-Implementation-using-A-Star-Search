@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "nPuzzle",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "nPuzzle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nPuzzle-Debug-a7a77ffc2fd5c39b1c31.json",
+					"name" : "nPuzzle",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/e/Shortcuts/Doc-HDD/Github/N-Puzzle-Problem-CPP-Implementation-using-A-Star-Search/cmake-build-debug",
+		"source" : "/mnt/e/Shortcuts/Doc-HDD/Github/N-Puzzle-Problem-CPP-Implementation-using-A-Star-Search"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

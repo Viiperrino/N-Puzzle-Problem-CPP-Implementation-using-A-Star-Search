@@ -20,14 +20,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f733892d-c247-4dde-abca-9a05a8911650" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AStarSearch.h" beforeDir="false" afterPath="$PROJECT_DIR$/AStarSearch.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node.h" beforeDir="false" afterPath="$PROJECT_DIR$/Node.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/in.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out.txt" afterDir="false" />
-    </list>
+    <list default="true" id="f733892d-c247-4dde-abca-9a05a8911650" name="Default Changelist" comment="print direction" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,8 +171,17 @@
       <option name="presentableId" value="Default" />
       <updated>1543845087232</updated>
       <workItem from="1543845091042" duration="351000" />
-      <workItem from="1695873881927" duration="6690000" />
+      <workItem from="1695873881927" duration="6990000" />
     </task>
+    <task id="LOCAL-00001" summary="print direction">
+      <option name="closed" value="true" />
+      <created>1695880894834</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695880894834</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -230,6 +232,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="print direction" />
+    <option name="LAST_COMMIT_MESSAGE" value="print direction" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/AStarSearch.h">
