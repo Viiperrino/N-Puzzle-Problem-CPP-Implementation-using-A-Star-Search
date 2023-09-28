@@ -4,18 +4,34 @@
 
 #define MAX 105
 
+void printDirc(int dirInput){
+    if (dirInput == 0)
+        cout << "LEFT" << endl;
+    else if (dirInput == 1)
+        cout << "RIGHT" << endl;
+    else if (dirInput == 2)
+        cout << "UP" << endl;
+    else if (dirInput == 3)
+        cout << "DOWN" << endl;
+}
+
 
 void printSolution(aStarSearch &starSearch, const Node &Start, const Node &Goal) {
 	auto now = Goal;
 
 	//print soln
 	vector<Node> Path;
+    vector<int> dirPrint;
 	while (starSearch.visited[now].parent_ != EOF) {
 		Path.push_back(now);
+        dirPrint.push_back(starSearch.visited[now].parent_);
+        //cout << starSearch.visited[now].parent_<< endl;
 		now = now.getNode(starSearch.visited[now].parent_);
 	}
 	Path.push_back(Start);
 	reverse(Path.begin(), Path.end());
+    reverse(dirPrint.begin(), dirPrint.end());
+    for(auto i : dirPrint) printDirc(i);
 	for (auto &i : Path) cout << i;
 }
 

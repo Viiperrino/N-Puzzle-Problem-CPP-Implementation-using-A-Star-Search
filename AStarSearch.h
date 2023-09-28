@@ -12,7 +12,8 @@
 #define HAMMING_DISTANCE 2
 #define LINEAR_CONFLICT 3
 
-#define LIMIT_DEPTH 60
+// #define LIMIT_DEPTH 60
+#define LIMIT_DEPTH 300
 #define NODE_LIMIT 10000000
 
 #define cost_ cost

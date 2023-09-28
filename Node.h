@@ -154,7 +154,7 @@ public:
 			if (!getZeroPos(*this, zX, zY))
 				return Node();
 		}
-
+        //cout << direction << endl;
 		int zXnew = zX + dirX[direction];
 		int zYnew = zY + dirY[direction];
 
